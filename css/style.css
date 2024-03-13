@@ -34,7 +34,7 @@ body{
 .pos:focus{
     color: #404bbf;
 }
-.address{
+address{
     font-style: normal;
 }
 .contacts{
@@ -88,7 +88,7 @@ body{
     color: #434455;
 }
 .section_3{
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
 }
 .our_team{
     font-size: 36px;
