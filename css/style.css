@@ -51,6 +51,9 @@ address{
 .section_one{
     background-color: #2e2f42;
 }
+.section_three{
+    background-color: #F4F4FD;
+}
 .business{
     font-size: 56px;
     line-height: 1.07;
@@ -97,9 +100,6 @@ address{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-}
-.team{
-    background-color: #FFFFFF;
 }
 .team_two{
     line-height: 1.5;
