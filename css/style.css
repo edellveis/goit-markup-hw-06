@@ -28,6 +28,9 @@ body{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.pos :hover{
+.pos:hover{
+    color: #404bbf;
+}
+.pos:focus{
     color: #404bbf;
 }
