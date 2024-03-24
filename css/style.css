@@ -3,6 +3,61 @@ body{
     background-color: #ffff;
     color: #434455;
 }
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    width: 1440px;
+    height: 72px;
+}
+
+.navi {
+    display: flex;
+    align-items: center;
+}
+
+.ul-link {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin-left: 74px;
+}
+
+.ul-link li {
+    margin-right: 20px; /* Відступ між пунктами меню */
+}
+
+.ul-contacts {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.ul-contacts li {
+    margin-left: 20px; /* Відступ між контактами */
+}
+
+/* Прибрати підчеркування з посилань */
+.ul-link a,
+.ul-contacts a {
+    text-decoration: none;
+}
+
+/* Стилі для навігації */
+.ul-link a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
 .web{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -11,6 +66,8 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:  #4d5ae5;
+    margin-left: 156px;
+    text-decoration: none;
 }
 .studio{
     font-family: "Raleway", sans-serif;
@@ -48,6 +105,7 @@ address{
 .contacts:focus{
     color: #404bbf;
 }
+
 .section_one{
     background-color: #2e2f42;
 }
@@ -60,16 +118,25 @@ address{
     text-align: center;
     letter-spacing: 0.02em;
     color:  #ffffff;
+    width: 1440px;
+    height: 600px;
+    text-align: center;
+    padding: 188px 472px 292px 472px;
 }
 .button{
-    background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
+    border-radius: 4px;
+            padding: 16px 32px;
+            width: 169px;
+            height: 56px;
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+            background: #4d5ae5;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px; /* Доданий відступ між текстом і кнопкою */
+            margin-left: 636px;
+            margin-bottom: 168px;
 }
 .button:hover{
     background-color: #404BBF;
