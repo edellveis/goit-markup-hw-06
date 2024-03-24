@@ -103,7 +103,7 @@ address{
     letter-spacing: 0.02em;
     color:  #ffffff;
     text-align: center;
-    max-width: 496;
+    max-width: 496px;
 }
 .button{
     display: block;
