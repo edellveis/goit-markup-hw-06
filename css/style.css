@@ -23,6 +23,7 @@ img{
 
 .navi {
     align-items: center;
+    display: flex;
 }
 
 .nav-menu {
