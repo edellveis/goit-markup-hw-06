@@ -7,13 +7,17 @@ h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
 }
+img{
+    display: block;
+}
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 40px;
-    width: 1440px;
-    height: 72px;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
 }
 
 .navi {
@@ -21,41 +25,23 @@ h1, h2, h3, h4, h5, h6, p, ul {
     align-items: center;
 }
 
-.ul-link {
-    list-style-type: none;
-    padding: 0;
+.nav-menu {
     display: flex;
-    margin-left: 74px;
+    gap: 40px;
 }
 
-.ul-link li {
-    margin-right: 20px; /* Відступ між пунктами меню */
+.ul-link a {
+    padding: 24px 0;
+    margin-right: 76px;
 }
 
 .ul-contacts {
-    list-style-type: none;
-    padding: 0;
     display: flex;
+    gap: 40px;
 }
 
-.ul-contacts li {
-    margin-left: 20px; /* Відступ між контактами */
-}
-
-/* Прибрати підчеркування з посилань */
-.ul-link a,
-.ul-contacts a {
-    text-decoration: none;
-}
-
-/* Стилі для навігації */
-.ul-link a {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+.ul-contacts li:last-child {
+    margin-right: 0;
 }
 
 .web{
