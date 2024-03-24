@@ -122,7 +122,14 @@ address{
 }
 .studio_two{
     color: #f4f4fd;
-    
+    padding: 120px 0 120px;
+}
+.list {
+    display: flex;
+    gap: 24px;
+}
+.first-item {
+    width: calc((100% - 72px) / 4);
 }
 .visually-hidden {
     position: absolute !important;
