@@ -13,37 +13,34 @@ img{
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
-
 .container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
     display: flex;
 }
-
 .nav {
     align-items: center;
     display: flex;
 }
-
 .nav-menu {
     display: flex;
     gap: 40px;
+}
+.nav-link{
+    padding: 24px 0 24px;
 }
 .ul-link a {
     padding: 24px 0;
     margin-right: 76px;
 }
-
 .ul-contacts {
     display: flex;
     gap: 40px;
 }
-
 .ul-contacts li:last-child {
     margin-right: 0;
 }
-
 .web{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
