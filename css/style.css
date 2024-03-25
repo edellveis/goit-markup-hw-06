@@ -134,12 +134,14 @@ address{
 }
 .first-item {
     width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .item{
     flex: 1;
 }
 .section_three{
     background-color: #F4F4FD;
+    padding: 120px 0 120px;
 }
 .strategy{
     font-weight: 500;
@@ -158,6 +160,21 @@ address{
 }
 .section_three{
     background-color: #F4F4FD;
+    padding: 120px 0;
+}
+.team {
+    display: flex;
+    gap: 24px;
+}
+.employee-info {
+    padding: 32px 0;
+}
+.employee-name {
+    text-align: center;
+    margin-bottom: 8px;
+}
+.employee-role {
+    text-align: center;
 }
 .our_team{
     font-size: 36px;
@@ -166,6 +183,7 @@ address{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .team_two{
     line-height: 1.5;
