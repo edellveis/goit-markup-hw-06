@@ -120,26 +120,30 @@ address{
     padding: 188px 0 188px;
     background-color: #2e2f42;
 }
-.studio_two{
-    color: #f4f4fd;
+.section_two{
     padding: 120px 0 120px;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
 .list {
     display: flex;
     gap: 24px;
+    list-style-type: none;
+    padding: 0;
 }
 .first-item {
     width: calc((100% - 72px) / 4);
 }
-.visually-hidden {
-    position: absolute !important;
-    width: 1px !important;
-    height: 1px !important;
-    padding: 0 !important;
-    margin: -1px !important;
-    overflow: hidden !important;
-    clip: rect(0, 0, 0, 0) !important;
-    border: 0 !important;
+.item{
+    flex: 1;
 }
 .section_three{
     background-color: #F4F4FD;
@@ -150,6 +154,7 @@ address{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .our_goal{
     font-size: 16px;
