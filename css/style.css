@@ -167,7 +167,7 @@ address{
     gap: 24px;
 }
 .employee-info {
-    padding: 32px 0;
+    padding: 32px 0 32px;
 }
 .employee-name {
     text-align: center;
