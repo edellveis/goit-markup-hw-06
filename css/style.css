@@ -124,17 +124,19 @@ address{
     padding: 120px 0 120px;
 }
 .visually-hidden {
-    visibility: hidden;
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* Використовуйте clip, щоб зробити текст невидимим */
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden !important;
 }
 .list {
     display: flex;
     gap: 24px;
     list-style-type: none;
     padding: 0;
-}
-.first-item {
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
 }
 .item{
     flex: 1;
@@ -157,6 +159,8 @@ address{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .section_three{
     background-color: #F4F4FD;
