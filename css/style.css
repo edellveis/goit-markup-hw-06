@@ -124,13 +124,12 @@ address{
     padding: 120px 0 120px;
 }
 .visually-hidden {
-    position: absolute !important;
-    clip: rect(1px 1px 1px 1px); /* Використовуйте clip, щоб зробити текст невидимим */
-    padding: 0 !important;
-    border: 0 !important;
-    height: 1px !important;
-    width: 1px !important;
-    overflow: hidden !important;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
 }
 .list {
     display: flex;
