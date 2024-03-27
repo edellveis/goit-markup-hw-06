@@ -184,7 +184,6 @@ address{
 }
 .employee-role {
     text-align: center;
-    border-radius: 0px 0px 4px 4px;
 }
 .our_team{
     font-size: 36px;
@@ -213,6 +212,7 @@ address{
 }
 .lil{
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 .our_portfolio {
     margin-bottom: 72px;
@@ -228,7 +228,6 @@ address{
 .portfolio_item {
     width: calc((100% - 48px) / 3);
 }
-
 .app_info {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -238,12 +237,10 @@ address{
 .app_title {
     margin-bottom: 8px;
 }
-
 /* Для кожного третього пункту списку використовуємо margin-right: 0 для обнулення відступів */
 .portfolio_item:nth-child(3n) {
     margin-right: 0;
 }
-
 /* Для трьох останніх пунктів списку використовуємо margin-bottom: 0 для обнулення відступів */
 .portfolio_item:nth-last-child(-n+3) {
     margin-bottom: 0;
