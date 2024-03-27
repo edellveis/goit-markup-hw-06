@@ -184,6 +184,7 @@ address{
 }
 .employee-role {
     text-align: center;
+    border-radius: 0px 0px 4px 4px;
 }
 .our_team{
     font-size: 36px;
@@ -212,7 +213,6 @@ address{
 }
 .lil{
     background-color: #FFFFFF;
-    border-radius: 0px 0px 4px 4px;
 }
 .our_portfolio {
     margin-bottom: 72px;
