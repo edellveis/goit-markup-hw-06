@@ -182,9 +182,11 @@ address{
 .employee-name {
     text-align: center;
     margin-bottom: 8px;
+    border-radius: 0px 0px 4px 4px;
 }
 .employee-role {
     text-align: center;
+    border-radius: 0px 0px 4px 4px;
 }
 .our_team{
     font-size: 36px;
