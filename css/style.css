@@ -207,6 +207,7 @@ address{
 }
 .section_four{
     background-color: #FFFFFF;
+    padding: 120px 0 120px 0;
 }
 .lil{
     background-color: #FFFFFF;
@@ -263,4 +264,6 @@ address{
 }
 .studio_two{
     color: #f4f4fd;
+    display: inline-block;
+    margin-bottom: 16px;
 }
