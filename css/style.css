@@ -166,6 +166,12 @@ address{
     background-color: #F4F4FD;
     padding: 120px 0;
 }
+.our_team{
+    margin-bottom: 72px;
+}
+.first-item{
+    border-radius: 0px 0px 4px 4px;
+}
 .team {
     display: flex;
     gap: 24px;
