@@ -211,3 +211,56 @@ address{
 .lil{
     background-color: #FFFFFF;
 }
+.our_portfolio {
+    margin-bottom: 72px;
+}
+
+.portfolio_list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio_item {
+    width: calc((100% - 48px) / 3);
+}
+
+.app_info {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.app_title {
+    margin-bottom: 8px;
+}
+
+/* Для кожного третього пункту списку використовуємо margin-right: 0 для обнулення відступів */
+.portfolio_item:nth-child(3n) {
+    margin-right: 0;
+}
+
+/* Для трьох останніх пунктів списку використовуємо margin-bottom: 0 для обнулення відступів */
+.portfolio_item:nth-last-child(-n+3) {
+    margin-bottom: 0;
+}
+.footer{
+    padding: 100px 0;
+}
+.footer_link{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.footer_paragraph{
+    max-width: 264px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #f4f4fd
+}
+.studio_two{
+    color: #f4f4fd;
+}
