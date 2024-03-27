@@ -124,10 +124,17 @@ address{
     padding: 120px 0 120px;
 }
 .visually-hidden {
-    visibility: hidden;
-  pointer-events: none;
-  position: absolute;
-}
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  } 
 .list {
     display: flex;
     gap: 24px;
@@ -206,6 +213,7 @@ address{
 }
 .lil{
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 .our_portfolio {
     margin-bottom: 72px;
@@ -257,6 +265,7 @@ address{
 }
 .studio_two{
     color: #f4f4fd;
+    display: inline-block;
 }
 .footer_paragraph{
     max-width: 264px;
