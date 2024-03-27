@@ -10,6 +10,12 @@ h1, h2, h3, h4, h5, h6, p, ul {
 img{
     display: block;
 }
+ul{
+   list-style: none; 
+}
+a{
+    text-decoration: none;
+}
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -53,12 +59,6 @@ img{
     text-decoration: none;
 }
 .studio{
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #2e2f42;
 }
 .pos{
@@ -99,16 +99,16 @@ address{
 }
 .button{
     display: block;
-            width: 169px;
-            height: 56px;
-            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-            background: #4d5ae5;
-            border: none;
-            color: white;
-            font-size: 16px;
-            cursor: pointer;
-            min-width: 169px;
-            border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    min-width: 169px;
+    border-radius: 4px;
 }
 .button:hover{
     background-color: #404BBF;
@@ -192,7 +192,6 @@ address{
 .footer{
     background-color: #2e2f42;
 }
-
 .last{
     line-height: 1.5;
     color: #F4F4FD;
