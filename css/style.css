@@ -124,12 +124,9 @@ address{
     padding: 120px 0 120px;
 }
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
+    visibility: hidden;
+  pointer-events: none;
+  position: absolute;
 }
 .list {
     display: flex;
