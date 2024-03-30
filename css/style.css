@@ -19,7 +19,7 @@ a{
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
-.container{
+.container-head{
     padding: 0 15px 0 15px;
     width: 1158px;
     margin: 0 auto;
@@ -216,6 +216,7 @@ address{
 }
 .lil{
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4)
 }
 .our_portfolio {
     margin-bottom: 72px;
