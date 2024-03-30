@@ -21,6 +21,9 @@ a{
 }
 .container{
     padding: 0 15px 0 15px;
+    width: 1158px;
+    margin: 0 auto;
+    display: flex;
 }
 .nav {
     align-items: center;
@@ -177,6 +180,7 @@ address{
 }
 .first-item{
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4)
 }
 .employee-name {
     text-align: center;
