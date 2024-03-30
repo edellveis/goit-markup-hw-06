@@ -19,12 +19,16 @@ a{
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
+.container{
+    padding: 0 15px 0 15px;
+}
 .nav {
     align-items: center;
     display: flex;
 }
 .nav-menu {
     gap: 40px;
+    display: flex;
 }
 .nav-link{
     padding: 24px 0 24px;
