@@ -19,11 +19,9 @@ a{
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
-.container_head{
-    display: flex;
-}
 .nav {
     align-items: center;
+    display: flex;
 }
 .nav-menu {
     gap: 40px;
