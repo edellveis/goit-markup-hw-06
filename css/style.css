@@ -177,6 +177,11 @@ address{
     display: flex;
     gap: 24px;
 }
+.list-team{
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4)
+    border-top-right-radius: 4px;
+}
 .employee-info {
     padding: 32px 0 32px;
 }
@@ -211,11 +216,6 @@ address{
 .section_four{
     background-color: #FFFFFF;
     padding: 120px 0 120px 0;
-}
-.list-team{
-    background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4)
-    border-radius: 0px 0px 4px 4px;
 }
 .our_portfolio {
     margin-bottom: 72px;
