@@ -34,6 +34,7 @@ a{
     line-height: 150%;
     letter-spacing: 0.02em;
     font-weight: 500;
+    padding: 24px 0 24px
 }
 .web{
     font-weight: 700;
@@ -51,7 +52,6 @@ a{
 .nav-menu {
     gap: 40px;
     display: flex;
-    padding: 24px 0 24px;
 }
 .nav-link{
     color: #2e2f42;
@@ -97,7 +97,7 @@ a{
     line-height: 1.07;
     letter-spacing: 0.02em;
     color:  #ffffff;
-    width: 50%;
+    max-width: 496px;
     margin: 0 auto; 
     text-align: center; 
     margin-bottom: 68.16px;
