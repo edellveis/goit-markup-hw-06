@@ -125,8 +125,8 @@ address{
 }
 .visually-hidden {
     visibility: hidden;
-  pointer-events: none;
-  position: absolute;
+    pointer-events: none;
+    position: absolute;
 }
 .list {
     display: flex;
