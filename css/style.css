@@ -80,8 +80,10 @@ a{
     font-style: normal;
 }
 .contact-link{
+    display: block;
     color: #2e2f42;
     font-weight: 400;
+    padding: 24px 0 24px;
 }
 .ul-contacts li:last-child {
     margin-right: 0;
