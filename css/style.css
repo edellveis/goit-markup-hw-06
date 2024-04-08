@@ -148,6 +148,9 @@ a{
     height: 112px;
     background: #f4f4fd;
     margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .visually-hidden {
     visibility: hidden;
@@ -185,6 +188,27 @@ a{
 .section_three{
     background-color: #F4F4FD;
     padding: 120px 0;
+}
+.icon-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    
+}
+
+.icon-link {
+    margin-top: 8px;
+    background-color: #4d5ae5; /* Колір фону */
+    border-radius: 50%; /* Заокруглення */
+    width: 40px; /* Ширина фону */
+    height: 40px; /* Висота фону */
+    display: flex; /* Вирівнюємо іконки по центру */
+    justify-content: center; /* Вирівнюємо по горизонталі */
+    align-items: center; /* Вирівнюємо по вертикалі */
+}
+
+.icon {
+    fill: white; /* Колір іконки */
 }
 .our_team{
     margin-bottom: 72px;
@@ -290,7 +314,7 @@ a{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    font-family: Raleway;
+    font-family: "Roboto", sans-serif;
 }
 .studio_two{
     color: #f4f4fd;
@@ -302,4 +326,12 @@ a{
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #f4f4fd
+}
+.p-Social-media{
+    font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #fff;
 }
