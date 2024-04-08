@@ -203,6 +203,29 @@ a{
     gap: 24px;
     
 }
+.our_team{
+    margin-bottom: 72px;
+}
+.team {
+    display: flex;
+    gap: 24px;
+}
+.list-team{
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.employee-info {
+    padding: 32px 0 32px;
+}
+.employee-name {
+    text-align: center;
+    margin-bottom: 8px;
+}
+.employee-role {
+    text-align: center;
+}
 .icon-link {
     margin-top: 8px;
     background-color: #4d5ae5; /* Колір фону */
@@ -227,29 +250,6 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.our_team{
-    margin-bottom: 72px;
-}
-.team {
-    display: flex;
-    gap: 24px;
-}
-.list-team{
-    background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-.employee-info {
-    padding: 32px 0 32px;
-}
-.employee-name {
-    text-align: center;
-    margin-bottom: 8px;
-}
-.employee-role {
-    text-align: center;
 }
 .our_team{
     font-size: 36px;
