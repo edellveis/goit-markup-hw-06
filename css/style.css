@@ -159,17 +159,7 @@ a{
 .section_two{
     padding: 120px 0 120px;
 }
-.icon-bg{
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    width: 264px;
-    height: 112px;
-    background: #f4f4fd;
-    margin-bottom: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .visually-hidden {
     visibility: hidden;
     pointer-events: none;
@@ -226,6 +216,17 @@ a{
 
 .icon {
     fill: white; /* Колір іконки */
+}
+.icon-bg{
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .our_team{
     margin-bottom: 72px;
