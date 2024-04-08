@@ -100,6 +100,7 @@ a{
     color: #2e2f42;
     font-weight: 400;
     padding: 24px 0 24px;
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .ul-contacts li:last-child {
     margin-right: 0;
