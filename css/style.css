@@ -226,20 +226,8 @@ a{
     gap: 24px;
 }
 .icon-link {
-    margin-top: 8px;
-    background-color: #4d5ae5; /* Колір фону */
-    border-radius: 50%; /* Заокруглення */
-    width: 40px; /* Ширина фону */
-    height: 40px; /* Висота фону */
-    display: flex; /* Вирівнюємо іконки по центру */
-    justify-content: center; /* Вирівнюємо по горизонталі */
-    align-items: center; /* Вирівнюємо по вертикалі */
 }
 .icon {
-    fill: #f4f4fd; /* Колір іконки */
-    display: flex; /* Вирівнюємо іконки по центру */
-    justify-content: center; /* Вирівнюємо по горизонталі */
-    align-items: center; /* Вирівнюємо по вертикалі */
 }
 .icon-link:hover{
     background-color: #404bbf;
