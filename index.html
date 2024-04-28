@@ -361,24 +361,29 @@
         <div class="modal">
             <button class="close-btn" type="button">
                 <svg class="close-svg" width="8" height="8">
-                  <use href=""></use>
+                  <use href="./images/svg/sprite.svg#icon-close"></use>
                 </svg>
               </button>
-            <h2 class="modal-title">Leave your contacts and we will call you back</h2>
-            <form class="modal-form">
-                <label class="modal-label">Name</label>
-                <input type="text" class="modal-input" name="name">
-      
-                <label class="modal-label">Email</label>
-                <input type="email" class="modal-input" name="email">
-      
-                <label class="modal-label">Phone</label>
-                <input type="tel" class="modal-input" name="phone">
-      
-                <label class="modal-label">Comment</label>
-                <textarea class="modal-textarea" name="message"></textarea>
-      
-                <button type="submit" class="modal-button">Send</button>
+              <h2 class="modal-title">Leave your contacts and we will call you back</h2>
+              <div class="form-group">
+                <label for="name" class="form-label">
+                    Name
+                </label>
+                <input type="text" id="name" name="name" class="form-input">
+            </div>
+            <div class="form-group">
+                <label for="phone" class="form-label">
+                    Phone
+                </label>
+                <input type="tel" id="phone" name="phone" class="form-input">
+            </div>
+            <div class="form-group">
+                <label for="email" class="form-label">
+                    Email
+                </label>
+                <input type="email" id="email" name="email" class="form-input">
+            </div>
+            <button type="submit" class="submit-btn">Надіслати</button>
               </form>
         </div>
     </div>

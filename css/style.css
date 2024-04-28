@@ -471,3 +471,20 @@ a{
     background: #fcfcfc;
     overflow-y: auto;
 }
+.close-btn{
+    display: block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin-top: 24px;
+    margin-right: 0 auto;
+}
+.modal-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
