@@ -371,7 +371,7 @@
           </div>
         </div>
       </footer>
-      <div class="modal-overlay ">
+      <div class="modal-overlay is-open ">
         <div class="modal-window">
             <button class="close-btn" type="button">
                 <svg class="close-svg" width="8" heigh="8">
@@ -381,11 +381,11 @@
             <p class="modal-title">Leave your contacts and we will call you back</p>
             <form class="modal-form">
                 <div class="modal-form-user-input">
-                    <label class="modal-form-label">Name</label>
+                    <label class="modal-form-label" for="user-name">Name</label>
                     <div class="modal-form-user-input-box">
-                        <input class="modal-form-input" type="text" name="user-name" required autofocus />
-                        <svg class="modal-form-svg">
-                            <use href="./images/svg/sprite.svg#icon-human" width="18" height="24"></use>
+                        <input class="modal-form-input" id="user-name" type="text" name="user-name" required autofocus />
+                        <svg class="modal-form-svg" width="18" height="24">
+                            <use href="./images/svg/sprite.svg#icon-human"></use>
                         </svg>
                     </div>
                 </div>
@@ -393,8 +393,8 @@
                     <label class="modal-form-label" for="">Phone</label>
                     <div class="modal-form-user-input-box">
                         <input class="modal-form-input" type="tel" name="user-phone" required />
-                        <svg class="modal-form-svg">
-                            <use href="./images/svg/sprite.svg#icon-Phone"  width="18" height="24"></use>
+                        <svg class="modal-form-svg" width="18" height="24">
+                            <use href="./images/svg/sprite.svg#icon-Phone"></use>
                         </svg>
                     </div>
                 </div>
@@ -402,8 +402,8 @@
                     <label class="modal-form-label" for="">Email</label>
                     <div class="modal-form-user-input-box">
                         <input class="modal-form-input" type="email" name="user-email " />
-                        <svg class="modal-form-svg">
-                            <use href="./images/svg/sprite.svg#icon-message" width="18" height="24" ></use>
+                        <svg class="modal-form-svg" width="18" height="24">
+                            <use href="./images/svg/sprite.svg#icon-message"></use>
                         </svg>
                     </div>
                 </div>
