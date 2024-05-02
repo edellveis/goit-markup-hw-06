@@ -734,3 +734,18 @@ a{
 .modal-submit-btn:hover{
     background-color: #404BBF;
 }
+/* Для екранів шириною 320px і більше */
+@media (max-width: 320px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+/* Для екранів шириною 768px і більше */
+@media (min-width: 768px) {
+    
+}
+
+/* Для екранів шириною 1158px і більше */
+@media (min-width: 1158px) {
+    
+}
