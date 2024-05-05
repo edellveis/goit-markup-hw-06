@@ -55,7 +55,7 @@ a{
     background-color: transparent;
 }
 .mobail-wapper{
-    position: fixed;
+  position: fixed;
   z-index: 10;
   top: 0;
   left: 0;
@@ -89,6 +89,12 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 .mobail-adress {
+font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0.02em;
+color: #434455;
+margin-top: 168px;
 }
 .mobail-contact-link {
 }
