@@ -22,20 +22,45 @@ a{
 }
 
 .container{
-    padding: 0 15px 0 15px;
-    width: 1158px;
+    padding: 0 16px 0 16px;
+    min-width: 288px;
     margin: 0 auto;
 }
 .container-head{
-    display: flex;
+    display: none;
 }
-.nav {
-    align-items: center; 
+.mobail-menu {
+}
+.mobeil-menu-conteiner {
+}
+.burger-btn {
+    position: absolute;
     display: flex;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: solid transparent;
+    background-color: transparent;
+}
+.mobail-menu-inform{
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+}
+.mobail-menu-inform.is-open{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+.mobail {
+}
+.burger {
+}
+.mobail-menu-link {
+}
+.mobail-adres {
+}
+.mobail-contact-link {
 }
 .web{
     font-family: "Raleway", sans-serif;
@@ -51,70 +76,8 @@ a{
 .studio{
     color: #2e2f42;
 }
-.nav-menu {
-    gap: 40px;
-    display: flex;
-    
-}
-.nav-link{
-    color: #2e2f42;
-    display: block;
-    padding: 24px 0 24px;
-    position: relative;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
-}
 
-.nav-link.main{
-    color: #404bbf;
-}
-.nav-link.main::after{
-    position: absolute;
-    content: "";
-    left: 0;
-    bottom: -1px;
-    width: 100%;
-    height: 4px;
-    border-radius: 2px;
-    background-color: #404bbf;
-}
-.nav-link:hover{
-    color: #404bbf;
-}
-.nav-links:focus{
-    color: #404bbf;
-}
-.address{
-    display: block;
-    gap: 40px;
-    margin-left: auto;
-}
-.ul-contacts {
-    align-items: center; 
-    gap: 40px;
-    display: flex;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    font-weight: 400;
-    font-style: normal;
-}
-.contact-link{
-    display: block;
-    color: #2e2f42;
-    font-weight: 400;
-    padding: 24px 0 24px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.ul-contacts li:last-child {
-    margin-right: 0;
-}
-.contact-link:hover{
-    color:#404bbf
-}
-.contact-link:focus{
-    color: #404bbf;
-}
+/* Hero section */
 .business{
     font-size: 56px;
     line-height: 1.07;
@@ -735,14 +698,92 @@ a{
     background-color: #404BBF;
 }
 /* Для екранів шириною 320px і більше */
-@media (max-width: 320px) {
+@media (max-width: 319px) {
     body {
         overflow-x: hidden;
     }
 }
 /* Для екранів шириною 768px і більше */
 @media (min-width: 768px) {
+    .container-head{
+        display: flex;
+    }
+    .container{
+        padding: 0 15px 0 15px;
+        min-width: 288px;
+    }
+    .nav {
+        align-items: center; 
+        display: flex;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        font-weight: 500;
+    }
+    .nav-link.main::after{
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: -1px;
+        width: 100%;
+        height: 4px;
+        border-radius: 2px;
+        background-color: #404bbf;
+    }
+    .nav-menu {
+        gap: 40px;
+        display: flex;
+        
+    }
+    .nav-link{
+        color: #2e2f42;
+        display: block;
+        padding: 24px 0 24px;
+        position: relative;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
+    }
+    .nav-link.main{
+        color: #404bbf;
+    }
     
+    .nav-link:hover{
+        color: #404bbf;
+    }
+    .nav-links:focus{
+        color: #404bbf;
+    }
+    .address{
+        display: block;
+        gap: 40px;
+        margin-left: auto;
+    }
+    .ul-contacts {
+        align-items: center; 
+        gap: 40px;
+        display: flex;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .contact-link{
+        display: block;
+        color: #2e2f42;
+        font-weight: 400;
+        padding: 24px 0 24px;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .ul-contacts li:last-child {
+        margin-right: 0;
+    }
+    .contact-link:hover{
+        color:#404bbf
+    }
+    .contact-link:focus{
+        color: #404bbf;
+    }
 }
 
 /* Для екранів шириною 1158px і більше */
