@@ -542,8 +542,7 @@ a{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 408px;
-  min-height: 584px;
+  min-width: 288px;
   padding: 72px 24px 24px 24px;
   border-radius: 4px;
   box-shadow:
@@ -594,8 +593,6 @@ a{
     color: #2e2f42;
     margin-bottom: 16px;
     line-height: 1.5;
-}
-.modal-form {
 }
 .modal-form-user-input {
     margin-bottom: 8px;
@@ -887,6 +884,9 @@ a{
         display: flex;
         flex-direction: row;
         gap: 24px;
+    }
+    .modal-window{
+        min-width: 408px;
     }
 }
 
