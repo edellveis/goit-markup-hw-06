@@ -134,7 +134,7 @@ a{
 }
 /* Hero section */
 .section_one{
-    padding: 72px 0;
+    padding: 96px 0;
     background-color: #2e2f42;
     background-image: linear-gradient(
 	to bottom, 
@@ -181,7 +181,7 @@ a{
 }
 /* =============Section-two============ */
 .section_two{
-    padding: 120px 0 120px;
+    padding: 96px 0;
 }
 
 .visually-hidden {
@@ -213,17 +213,17 @@ a{
 /* ======================Section_theree============= */
 .section_three{
     background-color: #F4F4FD;
-    padding: 92px 0;
+    padding: 96px 0;
 }
 .our_team{
     margin-bottom: 72px;
 }
 .team {
     display: flex;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 72px;
-    width: calc(100% - 24px);
     margin: 0 auto;
 }
 .list-team{
@@ -752,7 +752,7 @@ a{
         align-items: center;
     }
     .web{
-        margin-right: 120px;
+        margin-right: 76px;
     }
     .container{
         max-width: 768px;
@@ -835,7 +835,7 @@ a{
     .mobeil-menu-conteiner{
         display: none;
     }.section_one{
-        padding: 188px 0 188px;
+        padding: 112px 0;
         background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url("../images/hero/hero-tablet-bg.jpg");
 
@@ -857,9 +857,6 @@ a{
     }
     .item{
         width: calc((100% - 24px) / 2);
-    }
-    .list-team{
-        width: calc((100% - 186px) / 2);
     }
     .team{
         flex-direction: row;
@@ -887,6 +884,14 @@ a{
     }
     .modal-window{
         min-width: 408px;
+    }
+    .section_two{
+        padding: 96px 0;
+
+    }
+    .section_four{
+        padding: 96px 0;
+
     }
 }
 
@@ -964,6 +969,16 @@ a{
     }
     .portfolio_item{
         width: calc((100% - 48px) / 3);
+    }
+    .footer .container{
+        padding-left: 15px;
+        gap: 0;
+    }
+    .footer-cont{
+        margin-right: 120px;
+    }
+    .footer-social{
+        margin: 0 auto;
     }
 }
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi){
